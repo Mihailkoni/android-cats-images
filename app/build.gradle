@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.catsimages'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.catsimages"
@@ -29,6 +29,14 @@ android {
 }
 
 dependencies {
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.8'
+
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation'com.squareup.retrofit2:converter-gson:2.12.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava3:2.11.0'
 
     implementation libs.appcompat
     implementation libs.material

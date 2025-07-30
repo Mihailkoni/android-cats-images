@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CatsImages</string>
+    <string name="next_image">Next Image</string>
+    <string name="error_when_uploading_an_image">Error when uploading an image</string>
 </resources>
